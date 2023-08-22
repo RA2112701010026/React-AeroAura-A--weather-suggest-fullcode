@@ -1,6 +1,40 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# AeroAura Weather App
+
+AeroAura Weather App is a web application that provides real-time weather information and outfit recommendations based on the weather conditions.
+
+## Table of Contents
+
+- [Features](#features)
+- [Usage](#usage)
+- [Getting Started](#getting-started)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- Get real-time weather information for a specific location.
+- Receive outfit recommendations based on the current weather conditions.
+- User-friendly interface with a search feature for locations.
+
+## Usage
+
+1. Enter the name of a city or location in the input field.
+2. Click the "Search" button to retrieve real-time weather information for that location.
+3. View the weather conditions, including temperature and weather condition (e.g., sunny, rainy).
+4. See outfit recommendations based on the current weather conditions.
+5. Adjust your outfit choices according to the recommendations provided.
+
+## Getting Started
+
+Follow these steps to get started with the AeroAura Weather App:
+
+1. Clone the repository:
+
+   ```sh
+   git clone https://github.com/your-username/weather-app.git
 
 ## Available Scripts
 
