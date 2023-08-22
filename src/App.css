@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
+/* App.css */
+*{
+  background-color: #fd6060;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  text-align: center;
+  font-family: Arial, sans-serif;
+ 
+}
+
+h1 {
+  font-size: 5.5rem;
+  margin-bottom: 0px; /* Adjust the margin-bottom value as needed */
+  color: #fcfefe;
+  font-style: italic;
+}
+
+
+.location-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.location,input {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border: 2px solid #333;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s;
+  background-color: rgb(234, 242, 242);
+  height: 50px;
+  margin-top: 3%;
+
+}
+
+.location-input:focus {
+  border-color: #ff6b6b;
+}
+
+.button-container {
+  margin-bottom: 1rem;
+}
+
+button {
+  background-color: #ff6b6b;
   color: white;
+  margin-top: 4%;
+ cursor: pointer;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
-.App-link {
-  color: #61dafb;
+.button:hover {
+  background-color: #fbf9f9;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.weather-container {
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.outfit-container {
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0px 3px 6px rgba(248, 243, 243, 0.1);
+
+}
+
+
+
+/* Add more custom styles here */
+
+p{
+  font-weight: 600;
+  color: rgb(79, 12, 110);
+}
+h3{
+  font-weight: bolder;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h2{
+  font-family: 'Courier New', Courier, monospace;
 }
