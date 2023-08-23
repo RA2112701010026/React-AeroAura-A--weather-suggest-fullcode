@@ -11,7 +11,7 @@ function App() {
   const [input, setInput] = useState('');
 
   const handleClick = () => {
-    const apiKey = '2b4c51625f5ea671a0a14148c71d4fd1';
+    const apiKey = 'd1870a15c36289f75dde4a53a310deb7';
     const city = input.trim(); // Trim any leading/trailing whitespace
 
     if (city !== '') {
@@ -42,10 +42,8 @@ function App() {
       />
       <Button handleClick={handleClick}></Button>
       
-      
       <WeatherComponent weatherData={weatherData} />
       <OutfitRecommendationComponent weatherData={weatherData} />
-     
       
     </div>
   );
